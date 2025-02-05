@@ -11,6 +11,8 @@ header {
     padding: 20px;
 }
 .gallery {
+    background-color: #d3d3d3;
+    padding: 20px;
     margin: 20px;
 }
 .image-container {
