@@ -5,6 +5,9 @@ body {
     padding: 0;
     direction: rtl;
 }
+img {
+    border: 3px solid black;
+    }
 header {
     background-color: black;
     color: white;
