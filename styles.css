@@ -4,12 +4,13 @@ html, body {
 }
 
 main {
+  position: relative;
   min-height: 100vh;
   min-height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 24px 24px 80px;
   box-sizing: border-box;
 }
 
@@ -17,16 +18,28 @@ img {
   display: block;
   width: min(100%, 2172px);
   height: auto;
-  max-height: calc(100svh - 48px);
+  max-height: calc(100svh - 104px);
   object-fit: contain;
+}
+
+footer {
+  position: absolute;
+  bottom: 28px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 @media (max-width: 600px) {
   main {
-    padding: 12px;
+    padding: 12px 12px 72px;
   }
 
   img {
-    max-height: calc(100svh - 24px);
+    max-height: calc(100svh - 84px);
   }
 }
